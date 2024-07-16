@@ -4,6 +4,8 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v13-appRouter";
 import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
 import "./globals.css";
+import Tabs from "@/components/Tabs";
+import { Typography } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -21,7 +23,50 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <AppRouterCacheProvider>
-          <ThemeProvider theme={theme}>{children}</ThemeProvider>
+          <ThemeProvider theme={theme}>
+            <div
+              className="flex flex-col"
+              style={{
+                padding: "5vh 25vw",
+                gap: 10,
+                minHeight: "100vh",
+                height: "100%",
+              }}
+            >
+              <header>
+                <div>
+                  <Typography
+                    variant="h4"
+                    component="h4"
+                    style={{ fontFamily: "cursive" }}
+                  >
+                    Dr.Bread's Home
+                  </Typography>
+                </div>
+                <Tabs />
+              </header>
+              <div style={{ display: "flex", flex: 1, padding: "20px 0" }}>
+                {children}
+              </div>
+              <footer>
+                <div
+                  style={{
+                    display: "flex",
+                    flexDirection: "column",
+                    alignItems: "flex-end",
+                  }}
+                >
+                  <Typography variant="body2">
+                    Published with
+                    <a href="https://pages.github.com">GitHub Pages</a>
+                  </Typography>
+                  <Typography variant="caption" style={{ fontStyle: "italic" }}>
+                    And special thanks to my best frd, Song
+                  </Typography>
+                </div>
+              </footer>
+            </div>
+          </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>

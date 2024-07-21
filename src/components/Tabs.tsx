@@ -12,6 +12,7 @@ export default function LabTabs() {
   const [value, setValue] = React.useState(pathname.replace("/", ""));
 
   const handleChange = (event: React.SyntheticEvent, newValue: string) => {
+    console.log(newValue);
     setValue(newValue);
     router.push(`/${newValue}`);
   };
@@ -20,7 +21,7 @@ export default function LabTabs() {
     setValue(pathname.replace("/", ""));
   }, [pathname]);
 
-  const TAB_ITEMS = ["about", "research", "publication", "contact", "blog"];
+  const TAB_ITEMS = ["about", "research", "publication", "CV", "blog"];
 
   return (
     <Box

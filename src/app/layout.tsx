@@ -40,7 +40,7 @@ export default function RootLayout({
                     component="h4"
                     style={{ fontFamily: "cursive" }}
                   >
-                    Dr.Bread's Home
+                    Seunghoon Hwang
                   </Typography>
                 </div>
                 <Tabs />

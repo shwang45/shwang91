@@ -48,7 +48,7 @@ export default function () {
             />
           </div>
         </div>
-      <Typography variant="body2" component={"p"} sx={{ textAlign: 'center' }}>
+      <Typography variant="body2" component={"p"} sx={{ textAlign: 'center', fontSize: '20px' }}>
         <a href="shwang45@asu.edu">Email</a>/
         <a href="https://drive.google.com/file/d/1mSk_W9zWS9jLHnDnXcWxWDhZENIcgSIx/view?usp=share_link">CV</a>/
         <a href="https://scholar.google.com/citations?user=TU6C-S8AAAAJ&amp;hl=en">

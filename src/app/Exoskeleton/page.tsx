@@ -1,12 +1,8 @@
-import Link from 'next/link'
 import { Typography } from "@mui/material";
 
 export default function () {
   return (
     <div>
-      <Typography variant="h6" component={"h6"}>
-        Research Abstract
-      </Typography>
       <div
         style={{
           fontSize: 16,
@@ -15,94 +11,96 @@ export default function () {
           gap: 16,
         }}
       >
-        <p>
-          <Typography variant="h6" component={"h6"}>
-            [R1] Characterization of Shoulder Joint Impedance
-          </Typography>
-          <li>
-            <Link href="/publication">sss</Link>
-          </li>
-          <li style={{ fontSize: "13px" }}>
-          <b>Mechanical Impedance</b> is a fundamental property of the human neuromuscular system that facilitates seamless, dynamic interactions with the physical environment. Specifically, it plays a crucial role when humans interact with unpredictable and/or destabilizing environments, complementing the slower actions that can be achieved through neural feedback.
-          In this study, using our developed shoulder exoskeleton robot (figure.A), I characterized the shoulder joint impedance, especially the stiffness representing the joint stability, across 3D arm postures and investigate the its sex differences.
-          We found <b>shoulder joint stiffness was significantly affected by arm postures in 3D space</b> (figure.B), and <b>males showed higher stiffness at all arom postures compared to females</b> (figure.C-E).<br />
-          </li>
-          <br />
-          <li style={{ fontSize: "13px" }}>
-            <a href="https://drive.google.com/file/d/1y6sw_0DVzftQo2nOQkfAIATXZjSjKWVC/view?usp=share_link">
-            Hwang, Seunghoon, et al. "Characterization of Human Shoulder Joint Stiffness across 3D Arm Postures and its Sex Differences." IEEE Transactions on Biomedical Engineering (2024).
-            </a>
-          </li>
-          <li style={{ fontSize: "13px" }}>
-            <a href="https://drive.google.com/file/d/1yzsv_eGGGYabFcbmiv777iLPryVbN9fl/view?usp=share_link">
-            Seunghoon Hwang, Edward Chan, and Hyunglae Lee. "Quantification of Shoulder Joint Impedance during Dynamic Motion: A Pilot Study Using a Parallel-Actuated Shoulder Exoskeleton Robot" IEEE Ubiquitous obot (2024).
-            </a>
-          </li>
-          <br />
-          <div style={{ display: "flex", justifyContent: "center" }}>
+        <Typography variant="h4" component={"h4"}>
+          Development of Exoskeleton System for Gait Rehabilitation
+        </Typography>
+        <div style={{ fontSize: '24px' }}>Objective</div>
+        <div style={{ fontSize: '13px' }}><b>Exoskeletons</b> are one of the most promising technologies for rehabilitation and assistance of human movements. 
+        In this study, I developed a <b>lower-extremity exoskeleton robot for the gait rehabilitation</b> of neurological patients, especially <b>stroke and spinal cord injury patients.</b> Stroke patients with hemiplegia exhibit different gait characteristics between the affected and healthy sides of their limbs. 
+        Furthermore, unlike stroke patients, spinal cord injury patients have lost their entire ability to control their lower limbs. 
+        These patients often use crutches to maintain their balance and walk. Therefore, it is crucial to consider the use of crutches and the users' postures in the motion planning and control of the exoskeleton robot.
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
             <img 
-              src="https://github.com/shwang45/shblog/blob/main/img/R1_Img.png?raw=true"
+              src="https://github.com/shwang45/shblog/blob/main/img/stroke.png?raw=true"
               alt="R1"
-              style={{ maxWidth: "80%", height: "auto", display: "block" }}
+              style={{ maxWidth: "100%", height: "auto", display: "block" }}
+            />
+        </div>
+          <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+            <img 
+              src="https://github.com/shwang45/shblog/blob/main/img/dmp_motion_2.png?raw=true"
+              alt="R2"
+              style={{ maxWidth: "100%", height: "auto", display: "block" }}
             />
           </div>
-        </p>
-        <br />
-        <p>
-          <Typography variant="h6" component={"h6"}>
-            [R2] Development of Safety-Critical Control System incorporating Previewable Information.
-          </Typography>
-          <li style={{ fontSize: "13px" }}>
-            <b>Safety</b> is one of the most important factors in the development of rehabilitation robots. In this study, we developed a safety-critical control system to prevent users from encountering unsafe situations (e.g., the robot operating beyond the human range of motion, the robot providing unintended assistance to the user). 
-            We utilized control barrier functions (CBFs) to compute the controlled invariant set, ensuring that the system states always remain within a defined safe set. However, conventional CBFs tend to make controllers conservative because they consider the worst-case conditions.
-            In contrast to conventional CBFs, our method incorporates previewable information into the safety control framework. This approach makes the controller less conservative, ensuring system safety with a smaller range of control input bounds. Consequently, the controller intervenes less frequently while still ensuring system safety.<br />
-            Simulation results showed that both conventional and preview CBFs succesisfully ensutre the system safety, but our method showed less conservative, input always intervened later, samller stopping time (in Figure).
-          </li>
-          <br />
-          <li style={{ fontSize: "13px" }}>
-            <a href="https://drive.google.com/file/d/1viL80basEBU6__KpaXX3I0iH7-EmAPmK/view?usp=share_link">
-            Tarun Pati+, <b>Hwang, S.H.+</b>, Sze Zheng Yong. 2023. Preview Control Barrier Functions for Linear Continuous Time Systems with Previewable Disturbances. 2023 European Control Conference (ECC). IEEE, 2023. (First author equally contributed)
-            </a>
-          </li>
-          <li style={{ fontSize: "13px" }}>
-            <a href="https://drive.google.com/file/d/1_qONrBcZS8ShLLflTTQQhPGKz0hQQOQ8/view?usp=share_link">
-            Pati, T.+, <b>Hwang, S.H.+</b> and Yong, S.Z. Control Barrier Functions for Linear Continuous Time Input Delay Systems with Limited Horizon Previewable Disturbances. 2024 American Control Conference (ACC). IEEE, 2024. (First author equally contributed)
-            </a>
-          </li>
-          <br />
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <img
-              src="https://github.com/shwang45/shblog/blob/main/img/R2_img.png?raw=true"
+        </div>
+        <div style={{ fontSize: '24px' }}>Approach</div>
+        <div style={{ fontSize: '13px' }}>To address the different gait characteristics between the affected and healthy sides of the limbs, I implemented two distinct control strategies. For the healthy side, I used <b>friction and gravity compensation control to allow natural movement</b>. 
+          For the affected side, I used <b>impedance control</b> to follow the desired trajectory, which was set based on the trajectory of the healthy side.
+          Furthermore, to account for the use of crutches, I estimated the crutch supporting points and the user's posture using a forward kinematic model with sensor systems. 
+          I then computed the desired step length to ensure stable walking with crutches and aligned the desired hip and knee joint angles with this step length using the <b>movement primitives method.</b>
+        </div>
+        
+        <div style={{ fontSize: '24px' }}>Results</div>
+        <div style={{ fontSize: '13px' }}>We evaluated our method with <b>13 stroke patients over 12 weeks</b>. After 12 weeks, the patients showed significant improvements: their 6-minute walk distance increased by 44% (Fig A), their performance in the Timed Up and Go test improved by 23.7% (Fig B), and their gait balance improved with a 10.4% increase in the Berg Balance Test (Fig C) and a 10.0% increase in the Fugl-Meyer Score (Fig D).
+          Additionally, testing the motion planning method with healthy subjects showed that our proposed method generated different step lengths depending on the crutch support points and user posture (<b><span style={{ color: 'blue' }}>left video: pre-defined walking, center video: larger desired step, right video: lower desired step</span></b>).
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+              <img 
+                src="https://github.com/shwang45/shblog/blob/main/img/stroke_results.png?raw=true"
+                alt="R1"
+                style={{ maxWidth: "70%", height: "auto", display: "block" }}
+              />
+          </div>
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+        <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+            <img 
+              src="https://github.com/shwang45/shblog/blob/main/img/1st_step.gif?raw=true"
               alt="R1"
-              style={{ maxWidth: "80%", height: "auto", display: "block" }}
+              style={{ maxWidth: "100%", height: "auto", display: "block" }}
+            />
+        </div>
+          <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+            <img 
+              src="https://github.com/shwang45/shblog/blob/main/img/1st_step-2.gif?raw=true"
+              alt="R2"
+              style={{ maxWidth: "100%", height: "auto", display: "block" }}
             />
           </div>
-        </p>
-        <br />
-        <p>
-          <Typography variant="h6" component={"h6"}>
-            [R3] Safe variable impedance controller incorporating the data-driven model of human joint impedance.
-          </Typography>
-          <li style={{ fontSize: "13px" }}>
-            Previous variable impedance controllers have improved human performance and stability when implemented in exoskeleton robots. However, these methods could not always guarantee user safety, and incorporating the human impedance model into variable impedance controllers has not been explored yet.
-            In this study, we developed a <b>safe variable impedance controller that incorporates a data-driven model of human joint impedance</b>. I characterized the stiffness of the human shoulder joint and designed a data-driven model to continuously estimate the upper and lower bounds of shoulder joint stiffness (Fig B).
-            Additionally, I integrated this data-driven model into a variable impedance control framework with safety-critical control to ensure user safety while enhancing human performance and stability. Simulations and experiments with 8 healthy subjects showed that our proposed method <b>guarantees user safety and reduces the incidence of user injury (Fig C-D)</b>.
-          </li>
-          <br />
-          <li style={{ fontSize: "13px" }}>
-            <a href="https://drive.google.com/file/d/1xxsfyMs1IdQtIoTresFDfEeHvNcvx08X/view?usp=share_link">
-            <b>Hwang, Seunghoon</b>, Tarun Pati, Aditya Saxena, Hyunglae Lee, Sze Zheng Yong ”Safe Variable Stiffness Control for Shoulder Exoskeleton Robots.” IEEE TRANSACTIONS ON CONTROL SYSTEMS TECHNOLOGY (2024), (Under Review)
-            </a>
-          </li>
-          <br />
-          <div style={{ display: "flex", justifyContent: "center" }}>
-            <img
-              src="https://github.com/shwang45/shblog/blob/main/img/R3_img.png?raw=true"
-              alt="R1"
-              style={{ maxWidth: "80%", height: "auto", display: "block" }}
+          <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+            <img 
+              src="https://github.com/shwang45/shblog/blob/main/img/1st_step-3.gif?raw=true"
+              alt="R3"
+              style={{ maxWidth: "100%", height: "auto", display: "block" }}
             />
           </div>
-        </p>
+        </div>
+        <div style={{ display: "flex", justifyContent: "center" }}>
+          <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+              <img 
+                src="https://github.com/shwang45/shblog/blob/main/img/dmp_results.png?raw=true"
+                alt="R1"
+                style={{ maxWidth: "100%", height: "auto", display: "block" }}
+              />
+          </div>
+        </div>
+        <div style={{ fontSize: '24px' }}>Publications</div>
+          <a href="https://drive.google.com/file/d/1j1zDVH7KIavP5roXyTdILljokjQ7zwsF/view?usp=share_link">
+          [1] Sung, J., Choi, S., Kim, H., Lee, G., Han, <b>Hwang, S. H.</b>, et al. 2017. Feasibility of rehabilitation training with a newly developed, portable, gait assistive robot for balance function in hemiplegic patients. Annals of rehabilitation medicine, 41(2), 178.
+          </a>
+          <a href="https://drive.google.com/file/d/1udefqC5UL2XV8vS8TCNGYiKgm_PZ8pyY/view?usp=share_link">
+          [2] Moon, S. B., Ji, Y. H., Jang, H. Y., <b>Hwang, S. H.</b>, et al. 2017. Gait analysis of hemiplegic patients in ambulatory rehabilitation training using a wearable lower limb robot: A pilot study. International Journal of Precision Engineering and Manufacturing, 18(12).
+          </a>
+          <a href="https://drive.google.com/file/d/1uAcDbg2cB4YBerS5aDSeX-xktPsWGzLv/view?usp=share_link">
+          [3] <b>Hwang, S. H.</b>, et al. 2019. Intuitive gait pattern generation for an exoskeleton robot. International Journal of Precision Engineering and Manufacturing 20.11 (2019).
+          </a>
+          <a href="https://drive.google.com/file/d/1P6g7vDCo1y2vugWvleFYaRhpg-poFYDI/view?usp=share_link">
+          [4] <b>Hwang, SH</b>, Sun, DI, Han JK, Kim WS. 2021. Gait pattern generation algorithm for lower extremity rehabilitation exoskeleton robot considering wearers condition. Intelligent Service Robotics (2021).
+          </a>
       </div>
     </div>
   );

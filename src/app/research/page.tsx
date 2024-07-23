@@ -18,7 +18,7 @@ export default function () {
         It is especially important for managing interactions with unpredictable or destabilizing environments, supporting the slower neural feedback actions.</div>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <Link href="/HumanMotorControl">
-            <img src="./" alt="See all" />
+            <img src="research/button.jpg" alt="See all" style={{ width: "150px", height: "auto" }}/>
           </Link>
         </div>
 
@@ -27,7 +27,7 @@ export default function () {
       Hence, ensuring the user safety and stable human-robot interaction should awlays be a priority when designing and controlling the exoskeleton.</div>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <Link href="/SafetyControl">
-            <img src="src/app/research/button.jpg" alt="See all" />
+            <img src="research/button.jpg" alt="See all" style={{ width: "150px", height: "auto" }}/>
           </Link>
         </div>
 
@@ -36,7 +36,7 @@ export default function () {
       To recover their motor ability, this technologies is one of the promissing method.</div>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <Link href="/Exoskeleton">
-            <img src="src/app/research/button.jpg" alt="See all" />
+            <img src="research/button.jpg" alt="See all" style={{ width: "150px", height: "auto" }}/>
           </Link>
         </div>
       
@@ -44,7 +44,7 @@ export default function () {
       <div style={{ fontSize: '16px' }}>I also have the experience of other categories robotics research proejcts.</div>
         <div style={{ display: 'flex', justifyContent: 'flex-end' }}>
           <Link href="/Others">
-            <img src="src/app/research/button.jpg" alt="See all" />
+            <img src="research/button.jpg" alt="See all" style={{ width: "150px", height: "auto" }}/>
           </Link>
         </div>
 

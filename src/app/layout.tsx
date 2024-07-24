@@ -19,6 +19,7 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+  const isMobile = true;
   return (
     <html lang="en">
       <body className={inter.className}>

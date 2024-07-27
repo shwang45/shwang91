@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 
 export default function () {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 8, padding: 16 }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: 8, maxWidth: '100%', padding: '1px' }}>
       <Typography variant="h6" component={"h6"}>
         Intro.
       </Typography>
@@ -25,7 +25,7 @@ export default function () {
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: 16, marginBottom: 16 }}>
         <img src="https://github.com/shwang45/shblog/blob/main/img/profile_2.png?raw=true" alt="Seunghoon Hwang" style={{ maxWidth: "90%", height: "auto" }} />
       </div>
-      <div style={{ display: "flex", justifyContent: "center" }}>
+      <div style={{ display: "flex", flexWrap: 'wrap', justifyContent: "center" }}>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
             <img 
               src="https://github.com/shwang45/shblog/blob/main/img/1st_step.gif?raw=true"

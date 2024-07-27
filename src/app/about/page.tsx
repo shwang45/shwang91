@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 
 export default function () {
   return (
-    <div style={{ display: "flex", flexDirection: "column", gap: 8 }}>
+    <div style={{ display: "flex", flexDirection: "column", gap: 8, padding: 16 }}>
       <Typography variant="h6" component={"h6"}>
         Intro.
       </Typography>

@@ -29,14 +29,29 @@ export default function LabTabs() {
         width: "100%",
         typography: "body1",
         display: "flex",
-        flexFlow: "row-reverse",
+        flexFlow: {
+          sm: "row",
+          lg: "row-reverse",
+        },
       }}
     >
       <TabContext value={value}>
         <Box sx={{ borderBottom: 1, borderColor: "divider" }}>
           <TabList onChange={handleChange}>
             {TAB_ITEMS.map((item, index) => (
-              <Tab key={index} label={item} value={item} />
+              <Tab
+                sx={{
+                  padding: {
+                    xs: "0 10px",
+                    sm: "0 20px",
+                    lg: "0 30px",
+                  },
+                  fontSize: { xs: "12px", sm: "16px", lg: "20px" },
+                }}
+                key={index}
+                label={item}
+                value={item}
+              />
             ))}
           </TabList>
         </Box>

@@ -5,7 +5,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
 import "./globals.css";
 import Tabs from "@/components/Tabs";
-import { Typography } from "@mui/material";
+import { Typography, Box } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -25,13 +25,21 @@ export default function RootLayout({
       <body className={inter.className}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
-            <div
+            <Box
               className="flex flex-col"
-              style={{
-                padding: "5vh 25vw",
-                gap: 10,
+              sx={{
+                gap: {
+                  xs: "10px",
+                  sm: "20px",
+                  lg: "30px",
+                },
                 minHeight: "100vh",
                 height: "100%",
+                padding: {
+                  xs: "2vh 5vw",
+                  sm: "5vh 5vw",
+                  lg: "5vh 25vw",
+                },
               }}
             >
               <header>
@@ -66,7 +74,7 @@ export default function RootLayout({
                   </Typography>
                 </div>
               </footer>
-            </div>
+            </Box>
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>

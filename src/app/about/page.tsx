@@ -14,7 +14,7 @@ export default function () {
         <a href="https://sites.google.com/view/asuneurorobotics/">
           Neurorobotics Lab
         </a>
-        at Arizona State University with Dr. Hyunglae Lee (Arizona State University) and Dr. Sze Zheng Yong (Northeastern).
+        at Arizona State University with Dr. Hyunglae Lee (Arizona State University) and Dr. Sze Zheng Yong (Northeastern University).
       </Typography>
       <Typography variant="h6" component={"h6"}>
         Research Interests

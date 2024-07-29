@@ -17,9 +17,9 @@ export default function () {
           gap: 25,
         }}
       >
-        <div style={{ fontSize: "24px" }}>Human Motor Control</div>
+        <div style={{ fontSize: "24px" }}>Human Biomechanics</div>
         <div style={{ fontSize: "16px" }}>
-          This research aims to investigate human motor control policies,
+          This research aims to investigate human bimomechanics,
           focusing on the mechanical impedance of human joints.{" "}
           <b>Mechanical impedance</b> is a key property of the neuromuscular
           system that enables smooth, dynamic interactions with the physical

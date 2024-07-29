@@ -21,7 +21,7 @@ export default function LabTabs() {
     setValue(pathname.replace("/", ""));
   }, [pathname]);
 
-  const TAB_ITEMS = ["about", "research", "publication", "CV", "blog"];
+  const TAB_ITEMS = ["about", "research", "publication", "CV"];
 
   return (
     <Box

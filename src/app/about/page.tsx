@@ -7,8 +7,8 @@ export default function () {
         Intro.
       </Typography>
       <Typography variant="body1" component={"p"} sx={{ lineHeight: 1.6 }}>
-        Hi, my name is Seunghoon Hwang. I am a roboticist specializing in exoskeleton robots designed to rehabilitate motor abilities in individuals with neurological impairments. My work lies at the intersection of biomechanics and robotic control theory, where I develop control frameworks that incorporate human motor control information.
-        Currently, my research focuses on characterizing the mechanical impedance of human joints, a fundamental property of the human neuromuscular system that allows smooth, dynamic interactions with the physical environment. I also develop safety-critical control systems to ensure user safety. By integrating these areas, I aim to create biomimetic controllers for exoskeleton robots that can effectively promote neuroplasticity in neurologically impaired individuals.
+        Hi, my name is Seunghoon Hwang. I am a roboticist specializing in exoskeleton robots designed to rehabilitate motor abilities in individuals with neurological impairments. 
+        My work lies at the intersection of biomedical engineering and robotics, where I develop <b>control frameworks incorporating human biomechanics</b>.
         I graduated from the Department of Mechatronics Engineering at Hanyang University in 2020 (PI: Dr.Changsoo Han).
         I am currently working at the
         <a href="https://sites.google.com/view/asuneurorobotics/">
@@ -20,7 +20,7 @@ export default function () {
         Research Interests
       </Typography>
       <Typography variant="body1" component={"p"}>
-        Rehabilitation Robotics, Human-Robot Interaction, Safety-Critical Control, Exoskeleton Robot
+        Rehabilitation Robotics, Human biomechanics, Human-Robot Interaction, Safety-Critical Control, Exoskeleton Robot
       </Typography>
       <div style={{ display: "flex", justifyContent: "center", alignItems: "center", marginTop: 16, marginBottom: 16 }}>
         <img src="https://github.com/shwang45/shblog/blob/main/img/profile_2.png?raw=true" alt="Seunghoon Hwang" style={{ maxWidth: "90%", height: "auto" }} />

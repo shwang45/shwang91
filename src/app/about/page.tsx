@@ -7,7 +7,7 @@ export default function () {
         Intro.
       </Typography>
       <Typography variant="body1" component={"p"} sx={{ lineHeight: 1.6 }}>
-        Hi, my name is Seunghoon Hwang. I am a roboticist specializing in exoskeleton robots designed to rehabilitate motor abilities in individuals with neurological impairments. 
+        Hi, my name is Seunghoon Hwang. I am a robotic engineer specializing in exoskeleton robots designed to rehabilitate motor abilities in individuals with neurological impairments. 
         My work lies at the intersection of biomedical engineering and robotics, where I develop <b>control frameworks incorporating human biomechanics</b>.
         I graduated from the Department of Mechatronics Engineering at Hanyang University in 2020 (PI: Dr.Changsoo Han).
         I am currently working at the

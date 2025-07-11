@@ -9,7 +9,7 @@ export default function () {
       </Typography>
 
       <img
-        src="img/aim_logo.jpg"
+        src={`${process.env.PUBLIC_URL}/img/aim_logo.jpg`}
         alt="AIM Lab Logo"
         style={{ maxWidth: "700px", height: "auto", marginTop: 8, marginBottom: 8 }}
       />

@@ -7,7 +7,7 @@ const members = [
     role: "Assistant Professor",
     department: "Department of Mechanical Engineering",
     group: "PI",
-    image: "/img/hsh_profile.jpeg",
+    image: "https://github.com/shwang45/shblog/blob/main/img/hsh_profile.jpeg?raw=true",
     email: "",
   },
   // 추후 Master, Undergraduate, Alumni 멤버 추가 가능

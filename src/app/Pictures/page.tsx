@@ -7,7 +7,7 @@ const events = [
     title: "AIM Lab Kickoff Meeting",
     date: "Will be held in Fall 2025",
     description: "We will hold our very first kickoff meeting to welcome new members and discuss upcoming projects.",
-    image: "/img/aim_logo.jpg",
+    image: "https://github.com/shwang45/shblog/blob/main/img/aim_logo.jpg?raw=true",
   },
 ];
 

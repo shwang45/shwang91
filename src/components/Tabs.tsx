@@ -28,7 +28,10 @@ export default function LabTabs() {
       sx={{
         width: "100%",
         typography: "body1",
-        display: "flex",
+        display: {
+                  xs: "none",   // 모바일에서는 숨김
+                  sm: "flex",   // 데스크탑에서는 보임
+                },
         justifyContent: "center",
       }}
     >

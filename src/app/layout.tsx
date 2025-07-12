@@ -26,20 +26,22 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <Box
-              className="flex flex-col"
               sx={{
+                display: "flex",
+                flexDirection: "column",
                 gap: {
                   xs: "10px",
                   sm: "20px",
                   lg: "30px",
                 },
-                minHeight: "100vh",
-                height: "100%",
                 padding: {
-                  xs: "2vh 5vw",
-                  sm: "5vh 5vw",
-                  lg: "5vh 25vw",
+                  xs: "2vh 4vw",
+                  sm: "4vh 6vw",
+                  lg: "4vh 12vw",
                 },
+                maxWidth: "100vw",     // 너비 넘침 방지
+                overflowX: "hidden",    // 가로 스크롤 방지
+                boxSizing: "border-box", // 패딩 포함 크기 계산
               }}
             >
               <header>

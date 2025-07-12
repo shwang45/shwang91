@@ -45,7 +45,7 @@ export default function LabTabs() {
                   },
                   fontSize: { xs: "12px", sm: "16px", lg: "20px" },
                   minWidth: {
-                              xs: "30px",  // 📱 모바일에서 너비 제한
+                              xs: "10px",  // 📱 모바일에서 너비 제한
                               sm: "60px",
                             },
                   textTransform: "capitalize", // 보기 좋게 첫 글자 대문자

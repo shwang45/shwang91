@@ -39,11 +39,16 @@ export default function LabTabs() {
               <Tab
                 sx={{
                   padding: {
-                    xs: "0 10px",
+                    xs: "0 6px",
                     sm: "0 20px",
                     lg: "0 30px",
                   },
                   fontSize: { xs: "12px", sm: "16px", lg: "20px" },
+                  minWidth: {
+                              xs: "60px",  // 📱 모바일에서 너비 제한
+                              sm: "80px",
+                            },
+                  textTransform: "capitalize", // 보기 좋게 첫 글자 대문자
                 }}
                 key={index}
                 label={item}

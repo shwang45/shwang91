@@ -15,20 +15,11 @@ export default function () {
       </Typography>
       <div style={{ fontSize: "24px" }}>Objective</div>
       <div style={{ fontSize: "13px" }}>
-        <b>Mechanical Impedance</b> is a fundamental property of the human
-        neuromuscular system that facilitates seamless, dynamic interactions
-        with the physical environment. Specifically, it plays a crucial role
-        when humans interact with unpredictable and/or destabilizing
-        environments, complementing the slower actions that can be achieved
-        through neural feedback. However, previous studies focused on shoulder
-        joint impedance on 2D horizontal plane, difficult to reperesent the
-        shoulder joint impedance in real-world. To this end, this study{" "}
-        <b>characterized the shoulder joint stiffness in 3D space</b>.
-        Furthermore, I have investigate{" "}
-        <b>
-          the difference of shoulder joint stiffness between female and male
-        </b>
-        .
+        <strong>Mechanical impedance</strong> is a fundamental property of the human neuromuscular system that enables stable and adaptive interactions with the physical world. 
+        It plays a key role in regulating how the body responds to external forces, especially in unpredictable or dynamic environments. 
+        Understanding and quantifying joint impedance is essential not only for <strong>advancing wearable robotic systems</strong> that physically interact with humans, 
+        but also for <strong>designing personalized rehabilitation protocols</strong> that account for individual biomechanical characteristics. 
+        By measuring impedance using wearable robots, we can gain deeper insight into human motor control and develop assistive technologies that are both safe and tailored to individual needs.
       </div>
       <div style={{ display: "flex", justifyContent: "center" }}>
         <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
@@ -46,7 +37,7 @@ export default function () {
           />
         </div>
       </div>
-      <div style={{ fontSize: "24px" }}>Approach</div>
+      {/* <div style={{ fontSize: "24px" }}>Approach</div>
       <div style={{ fontSize: "13px" }}>
         Using our <b>parallel mechanism shoulder exoskeleton robot</b> (the
         figures above), we applied random Gaussian noise position pertrabtion to
@@ -55,9 +46,9 @@ export default function () {
         relationship between input position perturbation and output torque,
         using <b>the non-parametric system identification method</b> and compute
         the shoulder joint stiffness by using this IRF.
-      </div>
+      </div> */}
 
-      <div style={{ fontSize: "24px" }}>Results</div>
+      {/* <div style={{ fontSize: "24px" }}>Results</div>
       <div style={{ fontSize: "13px" }}>
         We found{" "}
         <b>
@@ -73,21 +64,21 @@ export default function () {
         shoulder joint can be affected to joint stability in 3D space, and also
         provide the explaination why females have more incidence of shoulder
         joint injury than males.
-      </div>
-      <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
+      </div> */}
+      {/* <div style={{ flex: 1, display: "flex", justifyContent: "center" }}>
         <img
           src="https://github.com/shwang45/shblog/blob/main/img/Results.jpg?raw=true"
           alt="R1"
           style={{ maxWidth: "100%", height: "auto", display: "block" }}
         />
-      </div>
+      </div> */}
       <div style={{ fontSize: "24px" }}>Publications</div>
-      <a href="https://drive.google.com/file/d/1y6sw_0DVzftQo2nOQkfAIATXZjSjKWVC/view?usp=share_link">
+      <a>
         [1] Hwang, Seunghoon, et al. "Characterization of Human Shoulder Joint
         Stiffness across 3D Arm Postures and its Sex Differences." IEEE
         Transactions on Biomedical Engineering (2024).
       </a>
-      <a href="https://drive.google.com/file/d/1yzsv_eGGGYabFcbmiv777iLPryVbN9fl/view?usp=share_link">
+      <a>
         [2] Seunghoon Hwang, Edward Chan, and Hyunglae Lee. "Quantification of
         Shoulder Joint Impedance during Dynamic Motion: A Pilot Study Using a
         Parallel-Actuated Shoulder Exoskeleton Robot" IEEE Ubiquitous obot

@@ -43,14 +43,21 @@ export default function RootLayout({
               }}
             >
               <header>
-                <div>
-                  <Typography
-                    variant="h4"
-                    component="h4"
-                    style={{ fontFamily: "cursive" }}
-                  >
-                    Seunghoon Hwang
-                  </Typography>
+                <div
+                  style={{
+                    display: "flex",
+                    alignItems: "right",
+                    justifyContent: "space-between",
+                  }}
+                >
+                  {/* ✅ AIM Lab 로고 삽입 */}
+                  <a href="/" style={{ display: "flex", alignItems: "right", gap: "10px" }}>
+                    <img
+                      src="/img/aim_logo2.png" // public/img/aim_logo.jpg 위치에 있어야 합니다
+                      alt="AIM Lab Logo"
+                      style={{ height: "100px", objectFit: "contain" }}
+                    />
+                  </a>
                 </div>
                 <Tabs />
               </header>

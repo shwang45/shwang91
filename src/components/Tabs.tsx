@@ -21,7 +21,7 @@ export default function LabTabs() {
     setValue(pathname.replace("/", ""));
   }, [pathname]);
 
-  const TAB_ITEMS = ["about", "research", "publication", "CV"];
+  const TAB_ITEMS = ["about", "Members","research", "publication", "News","Pictures", "Contact"];
 
   return (
     <Box
@@ -29,10 +29,7 @@ export default function LabTabs() {
         width: "100%",
         typography: "body1",
         display: "flex",
-        flexFlow: {
-          sm: "row",
-          lg: "row-reverse",
-        },
+        justifyContent: "center",
       }}
     >
       <TabContext value={value}>

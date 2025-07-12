@@ -5,6 +5,7 @@ import { ThemeProvider } from "@mui/material/styles";
 import theme from "../theme";
 import "./globals.css";
 import Tabs from "@/components/Tabs";
+import BottomTabs from "@/components/Bottomtab"; // 경로 맞게 조정
 import { Typography, Box } from "@mui/material";
 
 const inter = Inter({ subsets: ["latin"] });
@@ -83,6 +84,7 @@ export default function RootLayout({
                   </Typography>
                 </div>
               </footer>
+              <BottomTabs />
             </Box>
           </ThemeProvider>
         </AppRouterCacheProvider>

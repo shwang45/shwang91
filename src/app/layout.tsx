@@ -65,7 +65,7 @@ export default function RootLayout({
                 <Tabs />
                 <BottomTabs />
               </header>
-              <div style={{ display: "flex", flex: 1, padding: "20px 0" }}>
+              <div style={{ display: "flex", flex: 1, padding: "20px 0", paddingTop: "20px" }}>
                 {children}
               </div>
               <footer>

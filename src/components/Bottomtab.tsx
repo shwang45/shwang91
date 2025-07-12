@@ -19,10 +19,10 @@ export default function BottomTabs() {
       sx={{
         width: "100%",
         position: "fixed",
-        bottom: 0,
+        top: 0,
         left: 0,
         bgcolor: "#f5f5f5",
-        borderTop: "1px solid #ccc",
+        borderBottom: "1px solid #ccc",
         display: {
                 xs: "flex",   // ✅ 모바일에서 보임
                 sm: "none",   // ✅ 태블릿 이상에서는 숨김

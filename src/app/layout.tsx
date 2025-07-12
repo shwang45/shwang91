@@ -63,6 +63,7 @@ export default function RootLayout({
                   </a>
                 </div>
                 <Tabs />
+                <BottomTabs />
               </header>
               <div style={{ display: "flex", flex: 1, padding: "20px 0" }}>
                 {children}
@@ -84,7 +85,7 @@ export default function RootLayout({
                   </Typography>
                 </div>
               </footer>
-              <BottomTabs />
+              
             </Box>
           </ThemeProvider>
         </AppRouterCacheProvider>

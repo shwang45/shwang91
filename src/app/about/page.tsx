@@ -9,7 +9,7 @@ export default function () {
       </Typography>
 
       <img
-        src="/shwang91/img/aim_logo.png"
+        src="https://github.com/shwang45/shblog/blob/main/img/aim_logo.png?raw=true"
         alt="AIM Lab Logo"
         style={{ maxWidth: "700px", height: "auto", marginTop: 8, marginBottom: 8 }}
       />

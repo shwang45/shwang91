@@ -53,7 +53,7 @@ export default function RootLayout({
                   {/* ✅ AIM Lab 로고 삽입 */}
                   <a href="/" style={{ display: "flex", alignItems: "right", gap: "10px" }}>
                     <img
-                      src="/img/aim_logo2.png" // public/img/aim_logo.jpg 위치에 있어야 합니다
+                      src="https://github.com/shwang45/shblog/blob/main/img/aim_logo2.png?raw=true" // public/img/aim_logo.jpg 위치에 있어야 합니다
                       alt="AIM Lab Logo"
                       style={{ height: "100px", objectFit: "contain" }}
                     />

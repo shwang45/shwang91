@@ -9,13 +9,13 @@ export default function () {
       </Typography>
 
       <img
-        src={`${process.env.PUBLIC_URL}/img/aim_logo.jpg`}
+        src="/img/aim_logo.jpg"
         alt="AIM Lab Logo"
         style={{ maxWidth: "700px", height: "auto", marginTop: 8, marginBottom: 8 }}
       />
 
       <Typography variant="body1" component={"p"} sx={{ lineHeight: 1.6, textAlign: "justify" }}>
-        <strong>AIM (Assistive & Intelligent Motion)</strong> Lab focuses on designing wearable robotic systems that intelligently support and enhance human movement across both <strong>rehabilitation</strong> and <strong>industrial</strong> domains. 
+        <strong>AIM (Assistive & Intelligent Motion)</strong> Lab focuses on designing wearable robotic systems and developing assistive technologies that intelligently support and enhance human movement across both <strong>rehabilitation</strong> and <strong>industrial</strong> domains. 
         Our mission is to develop personalized assistive technologies that adapt to each individual's physical condition and task demands by integrating <strong>robotics, human biomechanics, control theory, and machine learning.</strong>
       </Typography>
       {/* <Typography variant="h6" component={"h6"}>

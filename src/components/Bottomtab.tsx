@@ -21,6 +21,7 @@ export default function BottomTabs() {
         position: "fixed",
         top: 0,
         left: 0,
+        height: "48px",
         bgcolor: "#f5f5f5",
         borderBottom: "1px solid #ccc",
         display: {
@@ -44,6 +45,7 @@ export default function BottomTabs() {
             color: currentTab === item ? "primary.main" : "text.primary",
             fontWeight: currentTab === item ? "bold" : "normal",
             fontSize: "14px",
+            textTransform: "capitalize",
           }}
         >
           {item}

@@ -52,6 +52,8 @@ export default function LabTabs() {
                               sm: "60px",
                             },
                   textTransform: "capitalize", // 보기 좋게 첫 글자 대문자
+                  bgcolor: "#ffffff",  // 💡 다크 모드 대비용 배경
+                  borderRadius: 1,
                 }}
                 key={index}
                 label={item}

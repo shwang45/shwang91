@@ -275,7 +275,7 @@
 }
 
 .highlight {
-  background-color: #f8f8f8;
+  background-color: #ffffff;
 }
 
 html,
@@ -392,8 +392,8 @@ table {
 
 body {
   box-sizing: border-box;
-  color: #373737;
-  background: #212121;
+  color: #000000;
+  background: #ffffff;
   font-size: 16px;
   font-family: "Myriad Pro", Calibri, Helvetica, Arial, sans-serif;
   line-height: 1.5;
@@ -605,7 +605,7 @@ form {
 }
 
 kbd {
-  background-color: #fafbfc;
+  background-color: #ffffff;
   border: 1px solid #c6cbd1;
   border-bottom-color: #959da5;
   border-radius: 3px;

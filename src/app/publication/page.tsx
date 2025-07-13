@@ -2,7 +2,7 @@ import { Typography } from "@mui/material";
 
 export default function () {
   return (
-    <div>
+    <div style={{ color: "black" }}>
       <Typography variant="h4" component={"h4"}>
         Publications
       </Typography>

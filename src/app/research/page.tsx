@@ -7,7 +7,7 @@ import Others from "@/app/Others/page";
 
 export default function () {
   return (
-    <div>
+    <div style={{ color: "black" }}>
       <div style={{ fontSize: "36px" }}>Research Interests</div>
       <div
         style={{

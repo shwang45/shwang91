@@ -23,7 +23,7 @@ export default function RootLayout({
   const isMobile = true;
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={inter.className} style={{ backgroundColor: "#ffffff" }}>
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <Box
@@ -40,6 +40,7 @@ export default function RootLayout({
                   sm: "4vh 6vw",
                   lg: "4vh 12vw",
                 },
+                backgroundColor: "#ffffff",
                 maxWidth: "100vw",     // 너비 넘침 방지
                 overflowX: "hidden",    // 가로 스크롤 방지
                 boxSizing: "border-box", // 패딩 포함 크기 계산

@@ -48,9 +48,13 @@ export default function RootLayout({
               <header>
                 <div
                   style={{
+                    // display: "flex",
+                    // alignItems: "right",
+                    // justifyContent: "space-between",
                     display: "flex",
-                    alignItems: "right",
-                    justifyContent: "space-between",
+                    flex: 1,
+                    padding: "20px 0",
+                    paddingTop: "20px",
                   }}
                 >
                   {/* ✅ AIM Lab 로고 삽입 */}

@@ -18,7 +18,7 @@ export default function BottomTabs() {
     <Box
       sx={{
         width: "100%",
-        position: "sticky",
+        position: "fixed",
         top: 0,
         left: 0,
         bgcolor: "#f5f5f5",

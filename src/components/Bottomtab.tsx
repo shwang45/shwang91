@@ -21,7 +21,6 @@ export default function BottomTabs() {
         position: "fixed",
         top: 0,
         left: 0,
-        height: "48px",
         bgcolor: "#f5f5f5",
         borderBottom: "1px solid #ccc",
         display: {

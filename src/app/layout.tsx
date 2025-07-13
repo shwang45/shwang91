@@ -55,10 +55,18 @@ export default function RootLayout({
                 >
                   {/* ✅ AIM Lab 로고 삽입 */}
                   <a href="/" style={{ display: "flex", alignItems: "right", gap: "10px" }}>
-                    <img
-                      src="https://github.com/shwang45/shblog/blob/main/img/aim_logo2.png?raw=true" // public/img/aim_logo.jpg 위치에 있어야 합니다
+                    <Box
+                      component="img"
+                      src="https://github.com/shwang45/shblog/blob/main/img/aim_logo2.png?raw=true"
                       alt="AIM Lab Logo"
-                      style={{ height: "100px", objectFit: "contain" }}
+                      sx={{
+                        height: "100px",
+                        objectFit: "contain",
+                        display: {
+                          xs: "none",   // 📱 모바일에서는 안 보임
+                          sm: "block",  // 💻 태블릿 이상에서 보임
+                        },
+                      }}
                     />
                   </a>
                 </div>

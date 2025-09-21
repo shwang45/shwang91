@@ -11,12 +11,28 @@ const members = [
     email: "",
   },
   {
+    name: "Merino Wilmer",
+    role: "Master Student",
+    department: "Department of Mechanical Engineering",
+    group: "Master",
+    image: "", // 실제 학부생 사진 URL로 교체
+    email: "wilmer.merino.031@my.csun.edu", // 필요시 이메일 추가
+  },
+  {
     name: "Hurst Wyatt",
     role: "Undergraduate Student",
     department: "Department of Mechanical Engineering",
     group: "Undergraduate",
     image: "https://github.com/shwang45/shblog/blob/main/img/hurst.jpeg?raw=true", // 실제 학부생 사진 URL로 교체
     email: "wyatt.hurst.755@my.csun.edu", // 필요시 이메일 추가
+  },
+  {
+    name: "Wilmarth Caleb",
+    role: "Undergraduate Student",
+    department: "Department of Mechanical Engineering",
+    group: "Undergraduate",
+    image: "https://github.com/shwang45/shblog/blob/main/img/idPic.jpg?raw=true", // 실제 학부생 사진 URL로 교체
+    email: "caleb.wilmarth.815@my.csun.edu", // 필요시 이메일 추가
   },
   // 추후 Master, Undergraduate, Alumni 멤버 추가 가능
 ];
